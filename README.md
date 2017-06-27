@@ -8,5 +8,6 @@ The functions defined in the code are as follows:
 Two dictionaries are created:
 1) data- The code reads the raw data in 'lines'.  'data' is created which stores ai5, sdkv, ts,event and timestamp for each game_id.
 2) Another dictionary called 'users' is created which stores session count, valid session count, valid session session length for each user(ai5) in every game_id before and after doing the missing value treatment, the latter being stored in adjusted_session_count and adjusted_valid_session_count)
+
 In output:
 'game_id' is the game_id in data, 'session_count' is the number of sessions for that game, 'valid_session_count' is the number of number of valid sessions, 'adjusted_session_count' is the number of sessions after taking the missing data into picture, 'adjusted_valid_session_count' is the number of valid sessions after taking missing data into consideration and  'avg_session_length' is the average duration of time spent on each game.
