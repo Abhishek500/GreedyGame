@@ -1,5 +1,6 @@
 # GreedyGame
 Calculates the number of sessions (valid and total) of a game and the average session time(only valid) from the dataset. The code takes care of missing data also to come up with total number of sessions.
+The code is in the file nameded 'datas.py' . 
 The functions defined in the code are as follows:
 1) unix_time_millis- Takes argument in date format and coverts to integer.
 2) str2time- Shows the time with microseconds.
